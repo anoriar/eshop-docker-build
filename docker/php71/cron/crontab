@@ -1,0 +1,5 @@
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+
+0 * * * * /home/bitrix/www/local/modules/aero.tools/cron/checkqueue.sh
+
